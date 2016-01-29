@@ -1,4 +1,5 @@
-" Lion's personal vimrc. More advanced settings are stored in files in the
+" Mamady's personal vimrc this file is downloaded from krischer dotfiles.
+" More advanced settings are stored in files in the
 " settings subfolder. Every .vim file in there will be automatically sourced.
 "
 " REQUIREMENTS: Symlink this file to ~/.vimrc and its parent folder to ~/.vim
@@ -105,6 +106,11 @@ set background=dark
 " nice and consistent.
 colorscheme solarized
 
+"===============================================================================
+"" ===========PLUGIN Configuration
+"======================NERDTree
+"autocmd vimenter * NERDTree "open NERDTree at startup
+map <leader>nt :NERDTreeToggle<CR>
 
 " =============================================================================
 " ========== Magic happening behind the scenes
