@@ -64,6 +64,12 @@ set wildmode=longest,list
 " Most Linux terminals are fine anyway.
 set mouse=a
 
+" Quick window movement
+
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
 
 " Autodetect filetype and necessary for some other stuff to work.
 filetype plugin on
